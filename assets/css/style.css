@@ -101,3 +101,92 @@ body {
   padding: 15px 20px; 
   border-radius: 5px;
 }
+
+/* MAIN SECTION */
+/* Enjoy on your TV  */
+.main-section .tv-section-container {
+  background-color: #000;
+  display: flex;
+  padding: 0 15rem; 
+  border-bottom: solid 8px rgb(55, 52, 52); 
+}
+
+.main-section .tv-section-container .left-column {
+  padding-top: 13%;
+  padding-left: 2%;
+}
+
+.main-section .tv-section-container .left-column h1 {
+  color: #fff; 
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.main-section .tv-section-container .left-column p {
+  color: #fff;
+  font-size: 1.5rem; 
+}
+
+.main-section .tv-section-container .right-column {
+  overflow: hidden; 
+  position: relative; 
+  width: 80%;
+  height: 500px;
+}
+
+.main-section .tv-section-container .right-column img {
+  position: absolute; 
+  width: 100%;
+}
+
+.main-section .tv-section-container .right-column .video-1 {
+  margin-left: 13%;
+  margin-top: 16%; 
+  width: 73%;
+}
+
+/* Watch Anywhere */
+.main-section .anywhere-section-container {
+  background-color: #000;
+  display: flex;
+  padding: 0 15rem; 
+  border-bottom: solid 8px rgb(55, 52, 52); 
+}
+
+.main-section .anywhere-section-container .left-column {
+  overflow: hidden; 
+  position: relative; 
+  width: 80%;
+  height: 500px;
+  margin-right: 50px; 
+}
+
+.main-section .anywhere-section-container .right-column {
+  padding-top: 13%;
+  padding-left: 2%;
+}
+
+.main-section .anywhere-section-container .right-column h1 {
+  color: #fff; 
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.main-section .anywhere-section-container .right-column p {
+  color: #fff; 
+  font-size: 1.5rem; 
+} 
+
+.main-section .anywhere-section-container .left-column img {
+  position: absolute; 
+  top: 50px; 
+  left: 15px; 
+  width: 100%; 
+}
+
+.main-section .anywhere-section-container .left-column .video-2 {
+  margin-left: 20%; 
+  margin-top: 15%;  
+  width: 65%; 
+  overflow: hidden; 
+}
