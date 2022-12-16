@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
 * {
   margin: 0; 
   padding: 0; 
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER SECTION */
@@ -22,4 +28,44 @@
   z-index: 1;
   background: rgba(0, 0, 0, 0.4); 
   box-shadow: inset 80px 100px 120px rgba(0, 0, 0, 0.6), inset -80px -100px 120px rgba(0, 0, 0, 0.6);
+}
+
+/* NAVBAR SECTION */
+.showcase-top {
+  position: relative; 
+  z-index: 2; 
+  padding: 27px 55px 27px; 
+}
+
+.showcase-top #logo {
+  height: 45px;
+}
+
+.showcase-top select {
+  background-image: url('../images/down-arrow.png'); 
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 16px; 
+  appearance: none;
+  background-color: transparent;
+  color: #fff; 
+  float: right; 
+  position: relative; 
+  right: 30px; 
+  border-radius: 5px;
+  height: 35px;
+  padding: 5px 25px 5px 10px; 
+  font-size: 16px;
+  outline: none; 
+}
+
+.showcase-top .submit {
+  background-color: #e50914; 
+  border: none; 
+  color: #fff; 
+  height: 35px; 
+  padding: 8px 18px; 
+  font-size: 16px;
+  border-radius: 5px;
+  float: right; 
 }
