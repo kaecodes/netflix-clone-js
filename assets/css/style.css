@@ -114,6 +114,7 @@ body {
 .main-section .tv-section-container .left-column {
   padding-top: 13%;
   padding-left: 2%;
+  width: 75%;
 }
 
 .main-section .tv-section-container .left-column h1 {
@@ -164,6 +165,7 @@ body {
 .main-section .anywhere-section-container .right-column {
   padding-top: 13%;
   padding-left: 2%;
+  width: 75%;
 }
 
 .main-section .anywhere-section-container .right-column h1 {
@@ -189,4 +191,43 @@ body {
   margin-top: 15%;  
   width: 65%; 
   overflow: hidden; 
+}
+
+/* Create Profiles for Kids */
+.main-section .kids-section-container {
+  background-color: #000;
+  display: flex;
+  padding: 0 15rem; 
+  border-bottom: solid 8px rgb(55, 52, 52);  
+}
+
+.main-section .kids-section-container .left-column {
+  padding-top: 13%;
+  padding-left: 2%;
+  width: 75%; 
+}
+
+.main-section .kids-section-container .left-column h1 {
+  color: #fff; 
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.main-section .kids-section-container .left-column p {
+  color: #fff;
+  font-size: 1.5rem; 
+}
+
+.main-section .kids-section-container .right-column {
+  overflow: hidden; 
+  position: relative; 
+  width: 75%;
+  height: 500px;
+}
+
+.main-section .kids-section-container .right-column img {
+  position: absolute; 
+  width: 80%;
+  margin-top: 60px; 
+  margin-left: 50px;
 }
